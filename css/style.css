@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+div {
+    width: 100%;
+}
+
+.rojo {
+    height: 150px;
+    background-color: red;
+}
+
+.amarillo {
+    height: 300px;
+    background-color: yellow;
+    flex-grow: 2;
+}
+
+h1 {
+    text-align: center;
+}
